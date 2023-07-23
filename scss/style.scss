@@ -1,0 +1,29 @@
+@import 'blocks/animation';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 1090px;
+}
+.container2 {
+    display: block;
+    margin: 0 auto;
+    width: 930px;
+    a {
+        text-decoration: none
+    }
+}
+
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/collection';
+@import 'blocks/importance';
+@import 'blocks/womazing';
+@import 'blocks/footer';
+

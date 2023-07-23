@@ -1,0 +1,31 @@
+.footer {
+    margin-top: 130px;
+    height: 363px;
+    background-color: #F1EADC;
+    ul {
+        position: relative;
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        li {
+            list-style-type: none;
+            a {
+                color: #000000;
+                text-decoration: none;     
+            }
+        }
+    }
+    &__contact {
+        display: flex;
+        align-items: center;
+    }
+    &__li {
+        width: 450px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__shop {
+        color: aqua;
+    }
+}

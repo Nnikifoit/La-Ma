@@ -1,0 +1,21 @@
+.womazing {
+    position: relative;
+    margin-top: 130px;
+    &__descr {
+        position: absolute;
+        width: 245px;
+        top: 250px;
+        right: 180px;
+        a {
+            display: block;
+            color: #6E9C9F;
+            font-size: 17px;
+            font-weight: 500;
+            padding-top: 20px;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.collection {
+    margin-top: 150px;
+    &__blocks {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a {
+            &:hover {
+                filter:blur(3px); 
+            }
+        }
+        &-descr {
+            padding-top: 20px;
+            text-align: center;
+        }
+        &-price {
+            padding-top: 10px;
+            color: #9C9C9C;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+    &__btn {
+        background-color: #ffffff;
+        display: block;
+        margin: 0 auto;
+        margin-top: 60px;
+        width: 243px;
+        height: 68px;
+        border-color: #6E9C9F;
+        color: #6E9C9F;
+        font-size: 17px;
+        font-weight: 400;
+        cursor: pointer;
+        &:hover {
+            background-color: #6E9C9F;
+            color: #ffffff;
+            border: none;
+        }
+    }
+}
